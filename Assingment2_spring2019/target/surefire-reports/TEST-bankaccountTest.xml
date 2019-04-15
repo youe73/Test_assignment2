@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="bankaccountTest" time="0.077" tests="10" errors="0" skipped="8" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\yosuke\IdeaProjects\Assingment2_spring2019\target\test-classes;C:\Users\yosuke\IdeaProjects\Assingment2_spring2019\target\classes;C:\Users\yosuke\.m2\repository\org\junit\platform\junit-platform-launcher\1.4.0\junit-platform-launcher-1.4.0.jar;C:\Users\yosuke\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\yosuke\.m2\repository\org\junit\platform\junit-platform-engine\1.4.0\junit-platform-engine-1.4.0.jar;C:\Users\yosuke\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\yosuke\.m2\repository\org\junit\platform\junit-platform-commons\1.4.0\junit-platform-commons-1.4.0.jar;C:\Users\yosuke\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.0\junit-jupiter-engine-5.4.0.jar;C:\Users\yosuke\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.0\junit-jupiter-api-5.4.0.jar;C:\Users\yosuke\.m2\repository\org\junit\vintage\junit-vintage-engine\5.4.0\junit-vintage-engine-5.4.0.jar;C:\Users\yosuke\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\yosuke\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\yosuke\.m2\repository\org\junit\junit-launcher\5.0.0-ALPHA\junit-launcher-5.0.0-ALPHA.jar;C:\Users\yosuke\.m2\repository\org\junit\junit-engine-api\5.0.0-ALPHA\junit-engine-api-5.0.0-ALPHA.jar;C:\Users\yosuke\.m2\repository\org\junit\junit-commons\5.0.0-ALPHA\junit-commons-5.0.0-ALPHA.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="DK"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\yosuke\AppData\Local\Temp\surefire12816784937667109752\surefirebooter5844891251368023083.jar C:\Users\yosuke\AppData\Local\Temp\surefire12816784937667109752 2019-03-12T11-12-50_399-jvmRun1 surefire16466372222302319828tmp surefire_04575167082282065840tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\yosuke\IdeaProjects\Assingment2_spring2019\target\test-classes;C:\Users\yosuke\IdeaProjects\Assingment2_spring2019\target\classes;C:\Users\yosuke\.m2\repository\org\junit\platform\junit-platform-launcher\1.4.0\junit-platform-launcher-1.4.0.jar;C:\Users\yosuke\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\yosuke\.m2\repository\org\junit\platform\junit-platform-engine\1.4.0\junit-platform-engine-1.4.0.jar;C:\Users\yosuke\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\yosuke\.m2\repository\org\junit\platform\junit-platform-commons\1.4.0\junit-platform-commons-1.4.0.jar;C:\Users\yosuke\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.0\junit-jupiter-engine-5.4.0.jar;C:\Users\yosuke\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.0\junit-jupiter-api-5.4.0.jar;C:\Users\yosuke\.m2\repository\org\junit\vintage\junit-vintage-engine\5.4.0\junit-vintage-engine-5.4.0.jar;C:\Users\yosuke\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\yosuke\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\yosuke\.m2\repository\org\junit\junit-launcher\5.0.0-ALPHA\junit-launcher-5.0.0-ALPHA.jar;C:\Users\yosuke\.m2\repository\org\junit\junit-engine-api\5.0.0-ALPHA\junit-engine-api-5.0.0-ALPHA.jar;C:\Users\yosuke\.m2\repository\org\junit\junit-commons\5.0.0-ALPHA\junit-commons-5.0.0-ALPHA.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\yosuke"/>
+    <property name="user.language" value="da"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-01-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\yosuke\IdeaProjects\Assingment2_spring2019"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\yosuke\AppData\Local\Temp\surefire12816784937667109752\surefirebooter5844891251368023083.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.2+9-LTS"/>
+    <property name="user.name" value="yosuke"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\yosuke\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\yosuke\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.2"/>
+    <property name="user.dir" value="C:\Users\yosuke\IdeaProjects\Assingment2_spring2019"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Gpg4win\..\GnuPG\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Users\yosuke\Anaconda3;C:\Users\yosuke\Anaconda3\Scripts;C:\HashiCorp\Vagrant\bin;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.6.0\bin;C:\Program Files\Java\jdk-11.0.2\bin;C:\Program Files\nodejs\;C:\Users\yosuke\AppData\Local\Microsoft\WindowsApps;C:\Users\yosuke\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.3.5\bin;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.2+9-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="isstillequal" classname="bankaccountTest" time="0">
+    <skipped message="public void bankaccountTest.isstillequal() is @Disabled"/>
+  </testcase>
+  <testcase name="istrue" classname="bankaccountTest" time="0">
+    <skipped message="public void bankaccountTest.istrue() is @Disabled"/>
+  </testcase>
+  <testcase name="withZero" classname="bankaccountTest" time="0">
+    <skipped message="public void bankaccountTest.withZero() is @Disabled"/>
+  </testcase>
+  <testcase name="isnotsame" classname="bankaccountTest" time="0">
+    <skipped message="public void bankaccountTest.isnotsame() is @Disabled"/>
+  </testcase>
+  <testcase name="allassert" classname="bankaccountTest" time="0.049"/>
+  <testcase name="testcalculateYearlyInterest" classname="bankaccountTest" time="0"/>
+  <testcase name="notequal" classname="bankaccountTest" time="0">
+    <skipped message="public void bankaccountTest.notequal() is @Disabled"/>
+  </testcase>
+  <testcase name="isequal" classname="bankaccountTest" time="0">
+    <skipped message="public void bankaccountTest.isequal() is @Disabled"/>
+  </testcase>
+  <testcase name="isfalse" classname="bankaccountTest" time="0">
+    <skipped message="public void bankaccountTest.isfalse() is @Disabled"/>
+  </testcase>
+  <testcase name="notNull" classname="bankaccountTest" time="0">
+    <skipped message="public void bankaccountTest.notNull() is @Disabled"/>
+  </testcase>
+</testsuite>
